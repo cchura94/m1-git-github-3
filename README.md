@@ -68,9 +68,9 @@ git checkout ramaDesarrollo
 git add .
 git commit -m "Cambios en la ramaDesarrollo"
 ```
-4. Verificar que se haya añadido correctamente
+4. Volver a la rama `master`
 ```bash
-git remote -v
+git checkout master
 ```
 5. Sube el primer commit a GITHUB con
 ```bash
