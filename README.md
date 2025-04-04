@@ -72,7 +72,7 @@ git commit -m "Cambios en la ramaDesarrollo"
 ```bash
 git checkout master
 ```
-5. Sube el primer commit a GITHUB con
-```bash
-git push origin master
+5. Funsiona la `ramaDesarrollo` a `master`
+```
+git merge ramaDesarrollo
 ```
